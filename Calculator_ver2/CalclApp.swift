@@ -8,10 +8,13 @@
 import SwiftUI
 
 @main
-struct Calculator_ver2App: App {
+struct CalclApp: App {
     var body: some Scene {
+        
+        @StateObject var calcViewModel = CalcViewModel()
         WindowGroup {
-            ContentView()
+            MainView()
+                .environmentObject(calcViewModel)
         }
     }
 }

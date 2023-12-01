@@ -7,16 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8CCD9FF02B1506B600901ECA /* Calculator_ver2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCD9FEF2B1506B600901ECA /* Calculator_ver2App.swift */; };
-		8CCD9FF22B1506B600901ECA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCD9FF12B1506B600901ECA /* ContentView.swift */; };
+		8C474D852B176A8E00A77C03 /* EnumerationButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C474D842B176A8E00A77C03 /* EnumerationButtons.swift */; };
+		8C474D872B176E2800A77C03 /* ColorsConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C474D862B176E2800A77C03 /* ColorsConstants.swift */; };
+		8C474D8D2B178B6B00A77C03 /* Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C474D8C2B178B6B00A77C03 /* Extention.swift */; };
+		8C474D8F2B1799DB00A77C03 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C474D8E2B1799DB00A77C03 /* BackgroundView.swift */; };
+		8C474D912B179A2E00A77C03 /* DisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C474D902B179A2E00A77C03 /* DisplayView.swift */; };
+		8C474DAD2B17A11700A77C03 /* Orbitron-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8C474DA92B17A11700A77C03 /* Orbitron-Medium.ttf */; };
+		8C474DAE2B17A11700A77C03 /* Orbitron-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8C474DAA2B17A11700A77C03 /* Orbitron-Black.ttf */; };
+		8C474DAF2B17A11700A77C03 /* Orbitron-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8C474DAB2B17A11700A77C03 /* Orbitron-Bold.ttf */; };
+		8C474DB02B17A11700A77C03 /* Orbitron-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8C474DAC2B17A11700A77C03 /* Orbitron-Regular.ttf */; };
+		8C474DB32B18CE4900A77C03 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C474DB22B18CE4900A77C03 /* ButtonView.swift */; };
+		8CCAC2C42B1A0A210072FC8C /* CalcViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCAC2C32B1A0A210072FC8C /* CalcViewModel.swift */; };
+		8CCD9FF02B1506B600901ECA /* CalclApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCD9FEF2B1506B600901ECA /* CalclApp.swift */; };
+		8CCD9FF22B1506B600901ECA /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCD9FF12B1506B600901ECA /* MainView.swift */; };
 		8CCD9FF42B1506B900901ECA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CCD9FF32B1506B900901ECA /* Assets.xcassets */; };
 		8CCD9FF72B1506B900901ECA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CCD9FF62B1506B900901ECA /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8C474D842B176A8E00A77C03 /* EnumerationButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumerationButtons.swift; sourceTree = "<group>"; };
+		8C474D862B176E2800A77C03 /* ColorsConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsConstants.swift; sourceTree = "<group>"; };
+		8C474D8C2B178B6B00A77C03 /* Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extention.swift; sourceTree = "<group>"; };
+		8C474D8E2B1799DB00A77C03 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		8C474D902B179A2E00A77C03 /* DisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayView.swift; sourceTree = "<group>"; };
+		8C474DA92B17A11700A77C03 /* Orbitron-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Orbitron-Medium.ttf"; sourceTree = "<group>"; };
+		8C474DAA2B17A11700A77C03 /* Orbitron-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Orbitron-Black.ttf"; sourceTree = "<group>"; };
+		8C474DAB2B17A11700A77C03 /* Orbitron-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Orbitron-Bold.ttf"; sourceTree = "<group>"; };
+		8C474DAC2B17A11700A77C03 /* Orbitron-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Orbitron-Regular.ttf"; sourceTree = "<group>"; };
+		8C474DB12B17A14900A77C03 /* Calculator-ver2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Calculator-ver2-Info.plist"; sourceTree = SOURCE_ROOT; };
+		8C474DB22B18CE4900A77C03 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		8CCAC2C32B1A0A210072FC8C /* CalcViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcViewModel.swift; sourceTree = "<group>"; };
 		8CCD9FEC2B1506B600901ECA /* Calculator_ver2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator_ver2.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8CCD9FEF2B1506B600901ECA /* Calculator_ver2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator_ver2App.swift; sourceTree = "<group>"; };
-		8CCD9FF12B1506B600901ECA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8CCD9FEF2B1506B600901ECA /* CalclApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalclApp.swift; sourceTree = "<group>"; };
+		8CCD9FF12B1506B600901ECA /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		8CCD9FF32B1506B900901ECA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8CCD9FF62B1506B900901ECA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -32,6 +55,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8C049D7E2B16243D005C6A17 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8CCD9FF12B1506B600901ECA /* MainView.swift */,
+				8C474D8E2B1799DB00A77C03 /* BackgroundView.swift */,
+				8C474D902B179A2E00A77C03 /* DisplayView.swift */,
+				8C474DB22B18CE4900A77C03 /* ButtonView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8C049D7F2B162441005C6A17 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				8CCAC2C32B1A0A210072FC8C /* CalcViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		8C049D802B162445005C6A17 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8C049D812B1624C3005C6A17 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				8C474D842B176A8E00A77C03 /* EnumerationButtons.swift */,
+				8C474D862B176E2800A77C03 /* ColorsConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		8C474D8B2B178B3F00A77C03 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				8C474D8C2B178B6B00A77C03 /* Extention.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		8C474DA82B17A0EF00A77C03 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				8C474DAA2B17A11700A77C03 /* Orbitron-Black.ttf */,
+				8C474DAB2B17A11700A77C03 /* Orbitron-Bold.ttf */,
+				8C474DA92B17A11700A77C03 /* Orbitron-Medium.ttf */,
+				8C474DAC2B17A11700A77C03 /* Orbitron-Regular.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
 		8CCD9FE32B1506B600901ECA = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +128,14 @@
 		8CCD9FEE2B1506B600901ECA /* Calculator_ver2 */ = {
 			isa = PBXGroup;
 			children = (
-				8CCD9FEF2B1506B600901ECA /* Calculator_ver2App.swift */,
-				8CCD9FF12B1506B600901ECA /* ContentView.swift */,
+				8C474DB12B17A14900A77C03 /* Calculator-ver2-Info.plist */,
+				8CCD9FEF2B1506B600901ECA /* CalclApp.swift */,
+				8C049D7E2B16243D005C6A17 /* Views */,
+				8C049D7F2B162441005C6A17 /* ViewModels */,
+				8C049D802B162445005C6A17 /* Models */,
+				8C474D8B2B178B3F00A77C03 /* Extentions */,
+				8C049D812B1624C3005C6A17 /* Constants */,
+				8C474DA82B17A0EF00A77C03 /* Font */,
 				8CCD9FF32B1506B900901ECA /* Assets.xcassets */,
 				8CCD9FF52B1506B900901ECA /* Preview Content */,
 			);
@@ -125,8 +208,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C474DB02B17A11700A77C03 /* Orbitron-Regular.ttf in Resources */,
 				8CCD9FF72B1506B900901ECA /* Preview Assets.xcassets in Resources */,
 				8CCD9FF42B1506B900901ECA /* Assets.xcassets in Resources */,
+				8C474DAF2B17A11700A77C03 /* Orbitron-Bold.ttf in Resources */,
+				8C474DAD2B17A11700A77C03 /* Orbitron-Medium.ttf in Resources */,
+				8C474DAE2B17A11700A77C03 /* Orbitron-Black.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +224,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CCD9FF22B1506B600901ECA /* ContentView.swift in Sources */,
-				8CCD9FF02B1506B600901ECA /* Calculator_ver2App.swift in Sources */,
+				8CCAC2C42B1A0A210072FC8C /* CalcViewModel.swift in Sources */,
+				8CCD9FF22B1506B600901ECA /* MainView.swift in Sources */,
+				8C474D852B176A8E00A77C03 /* EnumerationButtons.swift in Sources */,
+				8C474D8F2B1799DB00A77C03 /* BackgroundView.swift in Sources */,
+				8CCD9FF02B1506B600901ECA /* CalclApp.swift in Sources */,
+				8C474D912B179A2E00A77C03 /* DisplayView.swift in Sources */,
+				8C474D8D2B178B6B00A77C03 /* Extention.swift in Sources */,
+				8C474D872B176E2800A77C03 /* ColorsConstants.swift in Sources */,
+				8C474DB32B18CE4900A77C03 /* ButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,11 +369,11 @@
 				DEVELOPMENT_TEAM = DD3P835Y9D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Calculator-ver2-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -287,6 +381,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.aldnur.Calculator-ver2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -304,11 +401,11 @@
 				DEVELOPMENT_TEAM = DD3P835Y9D;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Calculator-ver2-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,6 +413,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.aldnur.Calculator-ver2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
