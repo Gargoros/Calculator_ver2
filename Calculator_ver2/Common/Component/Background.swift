@@ -7,13 +7,13 @@
 
 import SwiftUI
 
-struct BackgroundView: View {
+struct Background: View {
     var body: some View {
-        backgroundColor
+        Color.backgroundColor
             .ignoresSafeArea()
     }
 }
 
 #Preview {
-    BackgroundView()
+    Background()
 }

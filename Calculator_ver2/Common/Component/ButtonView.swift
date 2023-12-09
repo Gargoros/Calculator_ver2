@@ -10,9 +10,9 @@ import SwiftUI
 struct ButtonView: View {
     
     let buttonSize: CGFloat
-    let button: CalcButtons
+    let button: CalcButton
 
-    
+    //MARK: Image or Text
     var systemImage: String? {
             let value: String = button.rawValue
             return value.contains("IMG") ? value.replacingOccurrences(
@@ -41,7 +41,7 @@ struct ButtonView: View {
                         Color(button.buttonsColor)
                     )
                     .clipShape(RoundedRectangle(cornerRadius: 12))
-                    .shadow(color: shadowColor, radius: 4, x: 4, y:4)
+                    .shadow(color: .shadowColor, radius: 4, x: 4, y:4)
                     .shadow(color: .white, radius: 4, x: -4, y: -4)
             }else{
                 Image(systemName: systemImage ?? "")
@@ -62,7 +62,7 @@ struct ButtonView: View {
                         Color(button.buttonsColor)
                     )
                     .clipShape(RoundedRectangle(cornerRadius: 12))
-                    .shadow(color: shadowColor, radius: 4, x: 4, y:4)
+                    .shadow(color: .shadowColor, radius: 4, x: 4, y:4)
                     .shadow(color: .white, radius: 4, x: -4, y: -4)
             }
             
@@ -73,6 +73,6 @@ struct ButtonView: View {
 #Preview {
     ButtonView(
         buttonSize: 24,
-        button: CalcButtons.plus
+        button: CalcButton.plus
     )
 }

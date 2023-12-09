@@ -9,7 +9,7 @@ import SwiftUI
 
 
 // MARK: Buttons
-enum CalcButtons: String {
+enum CalcButton: String {
     
     // MARK: number buttons
     case one   = "1"
@@ -24,8 +24,8 @@ enum CalcButtons: String {
     case zero  = "0"
     
     // MARK: operators buttons
-    case plus      = "+"
-    case minus = "-"
+    case plus     = "+"
+    case minus    = "-"
     case multiple = "×"
     case divide   = "÷"
     case equal    = "="
@@ -35,28 +35,30 @@ enum CalcButtons: String {
     case negative = "IMGplus.forwardslash.minus"
     case undo     = "IMGdelete.backward"
     
+    //MARK: Buttons colors
     var buttonsColor: Color {
         switch self {
         case .plus, .minus, .multiple, .divide, .equal, .present, .decimal, .clear, .negative, .undo:
-            return operatorButtonColor
+            return .operatorButtonColor
         default:
-            return numberButtonColor
+            return .numberButtonColor
         }
     }
     
+    //MARK: Buttons text colour
     var buttonTextColor: Color {
         switch self {
         case .one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .zero:
-            return numberTextColor
+            return .numberTextColor
         default:
-            return operatorTextColor
+            return .operatorTextColor
         }
     }
     
 }
 
 
-// MARK: Operation
+// MARK: Math operation
 enum Operation {
     case addition, subtract, multiply, divide, none
 }

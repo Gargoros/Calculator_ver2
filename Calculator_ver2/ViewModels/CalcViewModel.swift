@@ -14,7 +14,7 @@ class CalcViewModel: ObservableObject {
     @Published var number: Double = 0.0
     @Published var currentOperation: Operation = .none
     
-    let buttonsArray: Array<Array<CalcButtons>> = [
+    let buttonsArray: Array<Array<CalcButton>> = [
         [.clear, .negative, .present, .divide],
         [.seven, .eight, .nine, .multiple],
         [.four, .five, .six, .minus],
@@ -23,26 +23,36 @@ class CalcViewModel: ObservableObject {
     ]
     
     // MARK: Tap Button Method
-        func didTap(button: CalcButtons) {
+        func didTap(button: CalcButton) {
             switch button {
+                
             case .plus, .minus, .multiple, .divide:
                 currentOperation = button.toOperation()
                 number = Double(value) ?? 0
                 value = "0"
+                
             case .equal:
                 if let currentValue = Double(value) {
                     value = formatResult(performOperation(currentValue))
                 }
+                
             case .present:
                 if let currentValue = Double(value) {
                     value = formatResult(currentValue / 100.0)
                 }
+                
             case .clear:
-                value = "0"
+                clearAll()
+                
             case .decimal:
                 if !value.contains(".") {
                     value += "."
                 }
+                
+            case .undo:
+                //TODO: create delete last symbol function
+                break
+                
             case .negative:
                 if let negativeValue = Double(value) {
                     value = formatResult(-negativeValue)
@@ -67,10 +77,19 @@ class CalcViewModel: ObservableObject {
         case .multiply:
             return number * currentValue
         case .divide:
-            return number / currentValue
+            if number != 0 && currentValue != 0{
+                return number / currentValue
+            }
+            return 0
         default:
             return currentValue
         }
+    }
+    //MARK: Clear all values
+    func clearAll(){
+        value = "0"
+        number = 0.0
+        currentOperation = .none
     }
     
     // MARK: Remove Last "0" Method

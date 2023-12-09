@@ -9,7 +9,6 @@ import SwiftUI
 
 struct DisplayView: View {
     
-    @Binding var currentComputation: String
     @Binding var mainResult: String
     
     let displayWidth: CGFloat
@@ -17,15 +16,13 @@ struct DisplayView: View {
 
     var body: some View {
         ZStack{
-            displayBackgroundColor
+            Color.displayBackgroundColor
                 .ignoresSafeArea()
             
             HStack{
                 Spacer()
                 VStack(alignment: .trailing) {
                     Spacer()
-                    Text(currentComputation)
-                        .font(Font.custom("Orbitron-Regular", size: 30))
                     Text(mainResult)
                         .font(Font.custom("Orbitron-Bold", size: 40))
                 }
@@ -40,7 +37,7 @@ struct DisplayView: View {
         .clipShape(RoundedRectangle(cornerRadius: 17))
         .padding()
         .frame(width: displayWidth, height: displayHeight)
-        .shadow(color: shadowColor, radius: 6, x: 8, y: 8)
+        .shadow(color: .shadowColor, radius: 6, x: 8, y: 8)
         .shadow(color: .white, radius: 8, x: -8, y: -8)
         
         
@@ -49,7 +46,6 @@ struct DisplayView: View {
 
 #Preview {
     DisplayView(
-        currentComputation: .constant("35 + 10"),
         mainResult: .constant("45"),
         displayWidth: .infinity,
         displayHeight: 200

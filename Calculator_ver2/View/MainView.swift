@@ -11,23 +11,24 @@ struct MainView: View {
     
     @EnvironmentObject var calcViewModel: CalcViewModel
     
+    
+    
     var body: some View {
         
         GeometryReader {geometry in
             ZStack {
-                //  MARK: Background
-                BackgroundView()
+                //MARK: Background
+                Background()
                 
-                //  MARK: Display
+                //MARK: Display
                 VStack {
                     DisplayView(
-                        currentComputation: $calcViewModel.value,
                         mainResult: $calcViewModel.value,
                         displayWidth: geometry.size.width,
                         displayHeight: geometry.size.height * 0.3
                     )
                     
-                    //  MARK: Numbers buttons
+                    //MARK: Numbers buttons
                     Grid (alignment: .center, horizontalSpacing: 20, verticalSpacing: 15) {
                         ForEach(calcViewModel.buttonsArray, id: \.self) {rowButtons in
                             GridRow {

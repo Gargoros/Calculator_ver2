@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct CalclApp: App {
+struct CalcApp: App {
     var body: some Scene {
         
-        @StateObject var calcViewModel = CalcViewModel()
+        @ObservedObject var calcViewModel = CalcViewModel()
         WindowGroup {
             MainView()
                 .environmentObject(calcViewModel)

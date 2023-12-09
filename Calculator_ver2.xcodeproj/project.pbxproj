@@ -8,9 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		8C474D852B176A8E00A77C03 /* EnumerationButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C474D842B176A8E00A77C03 /* EnumerationButtons.swift */; };
-		8C474D872B176E2800A77C03 /* ColorsConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C474D862B176E2800A77C03 /* ColorsConstants.swift */; };
-		8C474D8D2B178B6B00A77C03 /* Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C474D8C2B178B6B00A77C03 /* Extention.swift */; };
-		8C474D8F2B1799DB00A77C03 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C474D8E2B1799DB00A77C03 /* BackgroundView.swift */; };
+		8C474D8D2B178B6B00A77C03 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C474D8C2B178B6B00A77C03 /* Extension.swift */; };
+		8C474D8F2B1799DB00A77C03 /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C474D8E2B1799DB00A77C03 /* Background.swift */; };
 		8C474D912B179A2E00A77C03 /* DisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C474D902B179A2E00A77C03 /* DisplayView.swift */; };
 		8C474DAD2B17A11700A77C03 /* Orbitron-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8C474DA92B17A11700A77C03 /* Orbitron-Medium.ttf */; };
 		8C474DAE2B17A11700A77C03 /* Orbitron-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8C474DAA2B17A11700A77C03 /* Orbitron-Black.ttf */; };
@@ -18,7 +17,7 @@
 		8C474DB02B17A11700A77C03 /* Orbitron-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8C474DAC2B17A11700A77C03 /* Orbitron-Regular.ttf */; };
 		8C474DB32B18CE4900A77C03 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C474DB22B18CE4900A77C03 /* ButtonView.swift */; };
 		8CCAC2C42B1A0A210072FC8C /* CalcViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCAC2C32B1A0A210072FC8C /* CalcViewModel.swift */; };
-		8CCD9FF02B1506B600901ECA /* CalclApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCD9FEF2B1506B600901ECA /* CalclApp.swift */; };
+		8CCD9FF02B1506B600901ECA /* CalcApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCD9FEF2B1506B600901ECA /* CalcApp.swift */; };
 		8CCD9FF22B1506B600901ECA /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CCD9FF12B1506B600901ECA /* MainView.swift */; };
 		8CCD9FF42B1506B900901ECA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CCD9FF32B1506B900901ECA /* Assets.xcassets */; };
 		8CCD9FF72B1506B900901ECA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CCD9FF62B1506B900901ECA /* Preview Assets.xcassets */; };
@@ -26,19 +25,18 @@
 
 /* Begin PBXFileReference section */
 		8C474D842B176A8E00A77C03 /* EnumerationButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumerationButtons.swift; sourceTree = "<group>"; };
-		8C474D862B176E2800A77C03 /* ColorsConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsConstants.swift; sourceTree = "<group>"; };
-		8C474D8C2B178B6B00A77C03 /* Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extention.swift; sourceTree = "<group>"; };
-		8C474D8E2B1799DB00A77C03 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		8C474D8C2B178B6B00A77C03 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		8C474D8E2B1799DB00A77C03 /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
 		8C474D902B179A2E00A77C03 /* DisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayView.swift; sourceTree = "<group>"; };
 		8C474DA92B17A11700A77C03 /* Orbitron-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Orbitron-Medium.ttf"; sourceTree = "<group>"; };
 		8C474DAA2B17A11700A77C03 /* Orbitron-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Orbitron-Black.ttf"; sourceTree = "<group>"; };
 		8C474DAB2B17A11700A77C03 /* Orbitron-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Orbitron-Bold.ttf"; sourceTree = "<group>"; };
 		8C474DAC2B17A11700A77C03 /* Orbitron-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Orbitron-Regular.ttf"; sourceTree = "<group>"; };
-		8C474DB12B17A14900A77C03 /* Calculator-ver2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Calculator-ver2-Info.plist"; sourceTree = SOURCE_ROOT; };
+		8C474DB12B17A14900A77C03 /* Calculator-ver2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Calculator-ver2-Info.plist"; path = "Calculator_ver2/Calculator-ver2-Info.plist"; sourceTree = SOURCE_ROOT; };
 		8C474DB22B18CE4900A77C03 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		8CCAC2C32B1A0A210072FC8C /* CalcViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcViewModel.swift; sourceTree = "<group>"; };
 		8CCD9FEC2B1506B600901ECA /* Calculator_ver2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator_ver2.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8CCD9FEF2B1506B600901ECA /* CalclApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalclApp.swift; sourceTree = "<group>"; };
+		8CCD9FEF2B1506B600901ECA /* CalcApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcApp.swift; sourceTree = "<group>"; };
 		8CCD9FF12B1506B600901ECA /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		8CCD9FF32B1506B900901ECA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8CCD9FF62B1506B900901ECA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -55,15 +53,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8C049D7E2B16243D005C6A17 /* Views */ = {
+		8C049D7E2B16243D005C6A17 /* View */ = {
 			isa = PBXGroup;
 			children = (
 				8CCD9FF12B1506B600901ECA /* MainView.swift */,
-				8C474D8E2B1799DB00A77C03 /* BackgroundView.swift */,
-				8C474D902B179A2E00A77C03 /* DisplayView.swift */,
-				8C474DB22B18CE4900A77C03 /* ButtonView.swift */,
 			);
-			path = Views;
+			path = View;
 			sourceTree = "<group>";
 		};
 		8C049D7F2B162441005C6A17 /* ViewModels */ = {
@@ -74,28 +69,19 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
-		8C049D802B162445005C6A17 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
 		8C049D812B1624C3005C6A17 /* Constants */ = {
 			isa = PBXGroup;
 			children = (
-				8C474D842B176A8E00A77C03 /* EnumerationButtons.swift */,
-				8C474D862B176E2800A77C03 /* ColorsConstants.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
 		};
-		8C474D8B2B178B3F00A77C03 /* Extentions */ = {
+		8C474D8B2B178B3F00A77C03 /* Extention */ = {
 			isa = PBXGroup;
 			children = (
-				8C474D8C2B178B6B00A77C03 /* Extention.swift */,
+				8C474D8C2B178B6B00A77C03 /* Extension.swift */,
 			);
-			path = Extentions;
+			path = Extention;
 			sourceTree = "<group>";
 		};
 		8C474DA82B17A0EF00A77C03 /* Font */ = {
@@ -107,6 +93,53 @@
 				8C474DAC2B17A11700A77C03 /* Orbitron-Regular.ttf */,
 			);
 			path = Font;
+			sourceTree = "<group>";
+		};
+		8C7D5A9C2B2458010088488A /* Resource  */ = {
+			isa = PBXGroup;
+			children = (
+				8CCD9FF32B1506B900901ECA /* Assets.xcassets */,
+				8C049D812B1624C3005C6A17 /* Constants */,
+				8C474DA82B17A0EF00A77C03 /* Font */,
+			);
+			path = "Resource ";
+			sourceTree = "<group>";
+		};
+		8C7D5A9D2B2458700088488A /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				8C7D5A9E2B2458790088488A /* Base */,
+				8C7D5AA02B2458AE0088488A /* Component */,
+				8C7D5A9F2B2458900088488A /* Enum */,
+				8C474D8B2B178B3F00A77C03 /* Extention */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		8C7D5A9E2B2458790088488A /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				8CCD9FEF2B1506B600901ECA /* CalcApp.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		8C7D5A9F2B2458900088488A /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				8C474D842B176A8E00A77C03 /* EnumerationButtons.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
+		8C7D5AA02B2458AE0088488A /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				8C474D8E2B1799DB00A77C03 /* Background.swift */,
+				8C474DB22B18CE4900A77C03 /* ButtonView.swift */,
+				8C474D902B179A2E00A77C03 /* DisplayView.swift */,
+			);
+			path = Component;
 			sourceTree = "<group>";
 		};
 		8CCD9FE32B1506B600901ECA = {
@@ -129,15 +162,11 @@
 			isa = PBXGroup;
 			children = (
 				8C474DB12B17A14900A77C03 /* Calculator-ver2-Info.plist */,
-				8CCD9FEF2B1506B600901ECA /* CalclApp.swift */,
-				8C049D7E2B16243D005C6A17 /* Views */,
-				8C049D7F2B162441005C6A17 /* ViewModels */,
-				8C049D802B162445005C6A17 /* Models */,
-				8C474D8B2B178B3F00A77C03 /* Extentions */,
-				8C049D812B1624C3005C6A17 /* Constants */,
-				8C474DA82B17A0EF00A77C03 /* Font */,
-				8CCD9FF32B1506B900901ECA /* Assets.xcassets */,
+				8C7D5A9D2B2458700088488A /* Common */,
 				8CCD9FF52B1506B900901ECA /* Preview Content */,
+				8C7D5A9C2B2458010088488A /* Resource  */,
+				8C049D7E2B16243D005C6A17 /* View */,
+				8C049D7F2B162441005C6A17 /* ViewModels */,
 			);
 			path = Calculator_ver2;
 			sourceTree = "<group>";
@@ -227,11 +256,10 @@
 				8CCAC2C42B1A0A210072FC8C /* CalcViewModel.swift in Sources */,
 				8CCD9FF22B1506B600901ECA /* MainView.swift in Sources */,
 				8C474D852B176A8E00A77C03 /* EnumerationButtons.swift in Sources */,
-				8C474D8F2B1799DB00A77C03 /* BackgroundView.swift in Sources */,
-				8CCD9FF02B1506B600901ECA /* CalclApp.swift in Sources */,
+				8C474D8F2B1799DB00A77C03 /* Background.swift in Sources */,
+				8CCD9FF02B1506B600901ECA /* CalcApp.swift in Sources */,
 				8C474D912B179A2E00A77C03 /* DisplayView.swift in Sources */,
-				8C474D8D2B178B6B00A77C03 /* Extention.swift in Sources */,
-				8C474D872B176E2800A77C03 /* ColorsConstants.swift in Sources */,
+				8C474D8D2B178B6B00A77C03 /* Extension.swift in Sources */,
 				8C474DB32B18CE4900A77C03 /* ButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
